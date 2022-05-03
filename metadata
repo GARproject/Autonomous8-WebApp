@@ -1,0 +1,72 @@
+# F-Droid metadata template
+#
+# See http://f-droid.org/manual for more details
+# and the Metadata reference
+# https://f-droid.org/docs/Build_Metadata_Reference/
+#
+# Fields that are commented out are optional
+#
+# Single-line fields start right after the colon (with a whitespace).
+
+Categories: # Use those which apply
+  - Connectivity
+
+License: (identifier from https://spdx.org/licenses)
+
+# WebSite: app.autonomous8.org
+SourceCode: https://github.com/GARproject/Autonomous8-WebApp
+# IssueTracker: (web link)
+
+# Changelog: (web link)
+# Donate: (web link)
+# FlattrID: (number)
+# LiberapayID: (number)
+# Bitcoin: (bitcoin address)
+
+# You may not need to add Summary and Description here,
+# if you want to translate them. For details on other locations, see
+# https://f-droid.org/en/docs/All_About_Descriptions_Graphics_and_Screenshots/
+Summary: Serbest Çalışan İş Ağı
+Description: |-
+    Autonomous 8 serbest çalışanlar için bir iş ağıdır. Buradan ihtiyacınız olan iş partneriniz bulabilir, organize olabilirsiniz.
+
+    Reklam yok, takip yok.
+
+    Yapabilecekleriniz:
+ 
+    * Profil oluştuma
+    * Mekan açma ve Katılma
+    * Gruplara katılma
+
+    Links can be added like this:
+    [https://github.com/GARproject/Autonomous8-WebApp GitHub]
+
+    Links to other apps too: [[some.other.app]]
+
+RepoType: (git)
+Repo: (https://github.com/GARproject/Autonomous8-WebApp)
+
+# At least one for new apps
+Builds:
+  - versionName: '6.0'
+    versionCode: 6
+    commit: v6.0
+    subdir: app
+    # submodules: true
+    gradle:
+      - yes
+    # output: Autonomous8fdroid.apk
+    # prebuild: sed -i -e
+
+# For a complete list of possible flags, see the manual
+
+# MaintainerNotes: |-
+#     Here go the notes to take into account for future updates, builds, etc.
+#     Will be published in the wiki if present.
+
+# The following options are described at this location:
+# https://f-droid.org/docs/Build_Metadata_Reference/#UpdateCheckMode
+AutoUpdateMode: (see the manual)
+UpdateCheckMode: (see the manual)
+CurrentVersion: (current version name)
+CurrentVersionCode: (current version code, i.e. number)
