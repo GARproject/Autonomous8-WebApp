@@ -48,9 +48,9 @@ Repo: (https://github.com/GARproject/Autonomous8-WebApp)
 
 # At least one for new apps
 Builds:
-  - versionName: '6.0'
-    versionCode: 6
-    commit: v6.0
+  - versionName: '1.0'
+    versionCode: 1
+    commit: v1.0
     subdir: app
     # submodules: true
     gradle:
